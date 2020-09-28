@@ -12,7 +12,7 @@ import (
 var cache sync.Map
 
 // Singleton returns a singleton of T.
-func Singleton(type T)() (t *T) {
+func Singleton[type T]() (t *T) {
 	hash := reflect.TypeOf(t)
 	v, ok := cache.Load(hash)
 

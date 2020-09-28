@@ -15,9 +15,9 @@ type MyType struct {
     field int
 }
 
-v1 := singleton.Singleton(MyType)()
+v1 := singleton.Singleton[MyType]()
 v1.field = 123
 
-v2 := singleton.Singleton(MyType)()
+v2 := singleton.Singleton[MyType]()
 println(v2.field) // Output: 123
 ```
