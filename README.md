@@ -1,10 +1,8 @@
-# go-singleton: Experimental singleton implementation in Go2
+# go-singleton: Singleton using generic technic
 
-Per the article [The Next Step for Generics](https://blog.golang.org/generics-next-step) published by Go Authors, Go2 will support generic. This package is an experimental Go2 package to implement a type-safe singleton - a typical scenario in generic.
+Starting from go1.18, Go will officially support generic. This package is designed to embrace the new technic for convenience.
 
-## Install
-
-Since now (Jul 14, 2020), `go2go` doesn't support `go mod`. The only way (it seems) to import this package is to clone it manually to `$GO2PATH/src/github.com/huandu/go-generic` and then use it. Mind that the name of Go path environment variable is changed to `GO2PATH`.
+Go1.18 (or later) is required to compile this package.
 
 ## Usage
 
