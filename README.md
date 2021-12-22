@@ -1,7 +1,7 @@
 # go-singleton: Generic singleton factory
 
 [![Build Status](https://github.com/huandu/go-singleton/workflows/Go/badge.svg)](https://github.com/huandu/go-singleton/actions)
-[![GoDoc](https://godoc.org/github.com/huandu/go-singleton?status.svg)](https://pkg.go.dev/github.com/huandu/go-singleton/v2)
+[![GoDoc](https://godoc.org/github.com/huandu/go-singleton?status.svg)](https://pkg.go.dev/github.com/huandu/go-singleton)
 
 Starting from go1.18, Go will officially support generic. This package is designed to embrace the new technic for convenience.
 
