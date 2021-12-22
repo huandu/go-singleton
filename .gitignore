@@ -34,6 +34,3 @@ debug_test
 
 # Mac
 .DS_Store
-
-# Ignore generated Go files.
-*.go
